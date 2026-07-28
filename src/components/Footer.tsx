@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <div className="mb-3 flex items-center gap-2">
               <Image
-                src="/logo.png"
+                src="/logo-ivory.png"
                 alt="Trivara Consulting Services"
                 width={36}
                 height={36}

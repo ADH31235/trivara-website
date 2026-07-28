@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import ServiceCard from "@/components/ServiceCard";
 
 const pillars = [
@@ -48,6 +49,14 @@ export default function Home() {
       {/* Hero */}
       <section className="relative overflow-hidden">
         <div className="relative mx-auto max-w-6xl px-6 py-24 md:py-32">
+          <Image
+            src="/watermark-hero.png"
+            alt=""
+            width={498}
+            height={472}
+            aria-hidden="true"
+            className="pointer-events-none absolute right-6 top-1/2 hidden w-[300px] -translate-y-1/2 opacity-60 md:block lg:right-10 lg:w-[400px]"
+          />
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-sage">
             Hong Kong · Europe · Middle East · Asia
           </p>
