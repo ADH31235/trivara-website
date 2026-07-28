@@ -45,7 +45,7 @@ const services = [
   {
     id: "market-expansion",
     title: "Market Expansion",
-    who: "Companies entering new markets across Europe, the Middle East, or Asia",
+    who: "Companies entering new markets across Europe, the Middle East, or Asia — including retail expansion and real estate portfolio growth",
     description:
       "On-the-ground guidance for market entry — local landscape, partnerships, and the operational groundwork expansion requires.",
   },
@@ -73,9 +73,9 @@ const services = [
   {
     id: "company-valuations",
     title: "Company Valuations",
-    who: "Businesses raising capital, planning an exit, or reporting for regulatory purposes",
+    who: "Private equity deal teams, businesses raising capital, planning an exit, or reporting for regulatory purposes",
     description:
-      "Independent valuation support for fundraising, M&A, shareholder disputes, and financial reporting — grounded in a clear view of the business, not just the model.",
+      "Independent valuation and operational due diligence support for fundraising, M&A, shareholder disputes, and financial reporting — grounded in a clear view of the business, not just the model.",
   },
 ];
 

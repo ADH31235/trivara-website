@@ -15,7 +15,7 @@ const industries = [
   {
     title: "Private Equity",
     description:
-      "Deal teams and portfolio companies requiring valuation support, operational due diligence, and post-acquisition efficiency improvements.",
+      "In fast-moving deal environments, success depends on speed, precision, and clear-eyed diligence. We support private equity firms and portfolio companies with operational due diligence, independent valuation support, and post-acquisition operational turnaround — helping investors understand risk, validate value, and improve performance across the life of an investment.",
   },
   {
     title: "Retail & Consumer Products",
