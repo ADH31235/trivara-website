@@ -11,8 +11,8 @@ const links = [
 export default function Nav() {
   return (
     <header className="sticky top-0 z-50 border-b border-black/5 bg-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="flex items-center gap-3">
+      <div className="mx-auto flex max-w-6xl items-center gap-8 px-6 py-4">
+        <Link href="/" className="flex shrink-0 items-center gap-3">
           <Image
             src="/logo.png"
             alt="Trivara Consulting Services"
@@ -26,9 +26,9 @@ export default function Nav() {
           </span>
         </Link>
 
-        {/* Desktop: nav links + CTA grouped inside a dark pod */}
-        <div className="hidden items-center gap-1 rounded-full bg-forest p-2 md:flex">
-          <nav className="flex items-center gap-7 px-5">
+        {/* Desktop: nav links + CTA grouped inside a dark pod that expands to fill the row */}
+        <div className="hidden flex-1 items-center justify-between rounded-full bg-forest py-2 pl-8 pr-2 md:flex">
+          <nav className="flex items-center gap-10">
             {links.map((link) => (
               <Link
                 key={link.href}
@@ -50,7 +50,7 @@ export default function Nav() {
         {/* Mobile: simple standalone CTA since the pod nav is hidden */}
         <Link
           href="/contact"
-          className="rounded-full bg-forest px-5 py-2.5 text-sm font-medium text-ivory transition-colors hover:bg-forest-mid md:hidden"
+          className="ml-auto rounded-full bg-forest px-5 py-2.5 text-sm font-medium text-ivory transition-colors hover:bg-forest-mid md:hidden"
         >
           Book a Consultation
         </Link>
