@@ -11,9 +11,9 @@ export default function Footer() {
               <Image
                 src="/logo.png"
                 alt="Trivara Consulting Services"
-                width={28}
-                height={28}
-                className="h-7 w-7 object-contain"
+                width={36}
+                height={36}
+                className="h-9 w-9 object-contain"
               />
               <span className="font-serif text-base font-semibold tracking-wide text-ivory">
                 TRIVARA

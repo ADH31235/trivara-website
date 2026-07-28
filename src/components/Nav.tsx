@@ -16,9 +16,9 @@ export default function Nav() {
           <Image
             src="/logo.png"
             alt="Trivara Consulting Services"
-            width={48}
-            height={48}
-            className="h-12 w-12 object-contain"
+            width={64}
+            height={64}
+            className="h-16 w-16 object-contain"
             priority
           />
           <span className="font-serif text-2xl font-semibold tracking-wide text-forest">
