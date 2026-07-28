@@ -55,7 +55,7 @@ export default function Home() {
             width={498}
             height={472}
             aria-hidden="true"
-            className="pointer-events-none absolute right-6 top-1/2 hidden w-[300px] -translate-y-1/2 opacity-60 md:block lg:right-10 lg:w-[400px]"
+            className="pointer-events-none absolute right-4 top-1/2 hidden w-[380px] -translate-y-1/2 md:block lg:right-8 lg:w-[520px]"
           />
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.2em] text-sage">
             Hong Kong · Europe · Middle East · Asia
