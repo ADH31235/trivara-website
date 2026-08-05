@@ -11,6 +11,8 @@ const links = [
   { href: "/contact", label: "Contact" },
 ];
 
+const HUB_URL = "https://hub.trivaraservices.com/";
+
 export default function Nav() {
   const [open, setOpen] = useState(false);
 
@@ -43,6 +45,29 @@ export default function Nav() {
                 {link.label}
               </Link>
             ))}
+            <a
+              href={HUB_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-ivory/80 transition-colors hover:text-ivory"
+            >
+              Client Hub
+              <svg
+                width="12"
+                height="12"
+                viewBox="0 0 12 12"
+                fill="none"
+                aria-hidden="true"
+              >
+                <path
+                  d="M3 9L9 3M9 3H4.5M9 3V7.5"
+                  stroke="currentColor"
+                  strokeWidth="1.4"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
+            </a>
           </nav>
           <Link
             href="/contact"
@@ -105,6 +130,32 @@ export default function Nav() {
                 </Link>
               </li>
             ))}
+            <li>
+              <a
+                href={HUB_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={() => setOpen(false)}
+                className="flex items-center gap-1.5 rounded-lg px-3 py-3 text-base font-medium text-charcoal transition-colors hover:bg-forest/5 hover:text-forest"
+              >
+                Client Hub
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M3 9L9 3M9 3H4.5M9 3V7.5"
+                    stroke="currentColor"
+                    strokeWidth="1.4"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </a>
+            </li>
           </ul>
         </nav>
       )}
